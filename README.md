@@ -48,7 +48,7 @@ To run the example without docker:
 Make sure you have [docker installed](https://www.docker.com/products/overview#/install_the_platform) on your system.
 
 - `docker build -t dat-docker-example .`
-- `docker run -p 3000:3000 3282:3282 -d dat-docker-example`
+- `docker run -p 3000:3000 -p 3282:3282 -d dat-docker-example`
 
 ## Deploy
 
